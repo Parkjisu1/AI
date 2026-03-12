@@ -45,6 +45,13 @@ Given a 2D grid where `0` = walkable and `1` = obstacle, find the shortest path 
 경로 길이: 9 스텝
 ```
 
+### 파일 구조 | File Structure
+
+| 파일 | 설명 |
+|------|------|
+| [`AStar/AStarPathfinding.cs`](AStar/AStarPathfinding.cs) | A* 알고리즘 핵심 구현 및 실행 예제 — Core A* algorithm implementation with example usage |
+| [`AStar/PriorityQueue.cs`](AStar/PriorityQueue.cs) | 최소 힙 기반 우선순위 큐 — Min-heap based priority queue |
+
 ### 핵심 구현 | Implementation
 
 ```csharp
@@ -53,21 +60,6 @@ Given a 2D grid where `0` = walkable and `1` = obstacle, find the shortest path 
 // HashSet — 방문 노드 추적
 // Parent Map — 경로 역추적 복원
 ```
-
----
-
-## GameMaker
-
-게임 개발 프로세스 관련 참조 자료.
-
-Game development process reference materials.
-
-| 항목 | 설명 |
-|------|------|
-| **ART** | 아트 에셋 제작 참조 |
-| **CICD** | CI/CD 파이프라인 구성 |
-| **Planning** | 게임 기획 프로세스 |
-| **System** | 시스템 설계 참조 |
 
 ---
 
